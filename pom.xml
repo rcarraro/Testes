@@ -1,18 +1,3 @@
-Skip to content
- 
-Search…
-All gists
-Back to GitHub
-@rcarraro 
-@eliasnogueira
-eliasnogueira/unit_test_maven
-Last active 8 years ago • Report abuse
-Code
-Revisions
-2
-<script src="https://gist.github.com/eliasnogueira/657fdba6f3b120d9cac7.js"></script>
-pom.xml de exemplo com Maven - Treinamento Unit Test
-unit_test_maven
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
@@ -98,22 +83,3 @@ unit_test_maven
 	</reporting>
 
 </project>
-@rcarraro
- 
-Leave a comment
-Nenhum arquivo escolhido
-Attach files by dragging & dropping, selecting or pasting them.
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
