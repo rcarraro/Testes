@@ -14,7 +14,7 @@
 
 
     <build>
-        <sourceDirectory>Source Code Inspection/src/br/calebe/ticketmachine/core</sourceDirectory>
+        <sourceDirectory>Source Code Inspection/src/br/calebe/ticketmachine</sourceDirectory>
     </build>
          
     <dependencies>
