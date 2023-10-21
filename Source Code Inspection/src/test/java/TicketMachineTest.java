@@ -38,9 +38,12 @@ public class TicketMachineTest {
         assertEquals(0, ticketMachine.getSaldo());
     }
 
-    @Test(expected = SaldoInsuficienteException.class)
-    public void testImprimirTicketWithInsufficientBalance() throws SaldoInsuficienteException {
-        ticketMachine.inserir(30);  
-        ticketMachine.imprimir();
+    @Test
+    public void testImprimirTicketWithInsufficientBalance() {
+        TicketMachine ticketMachine = new TicketMachine(50); 
+        
+        assertThrows(SaldoInsuficienteException.class, () -> {
+            ticketMachine.imprimir();
+        });
     }
 }
