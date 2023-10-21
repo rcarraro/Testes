@@ -32,8 +32,8 @@ public class TicketMachineTest {
         ticketMachine.inserir(50);  
         String ticket = ticketMachine.imprimir();
         String resposta = "*****************\n";
-        expectedTicket += "*** R$ 50,00 ****\n";
-        expectedTicket += "*****************\n";
+        resposta += "*** R$ 50,00 ****\n";
+        resposta += "*****************\n";
         assertEquals(resposta, ticket);
         assertEquals(0, ticketMachine.getSaldo());
     }
