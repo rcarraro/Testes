@@ -28,7 +28,7 @@ public class TicketMachineTest {
     }
 
     @Test
-    public void testImprimirTicketWithSufficientBalance() throws SaldoInsuficienteException {
+    public void testImprimirTicketWithSufficientBalance() throws SaldoInsuficienteException,PapelMoedaInvalidaException {
         ticketMachine.inserir(50);  
         String ticket = ticketMachine.imprimir();
         assertEquals("*** R$ 50,00 ****\n", ticket);
@@ -36,7 +36,7 @@ public class TicketMachineTest {
     }
 
     @Test(expected = SaldoInsuficienteException.class)
-    public void testImprimirTicketWithInsufficientBalance() throws SaldoInsuficienteException {
+    public void testImprimirTicketWithInsufficientBalance() throws SaldoInsuficienteException,PapelMoedaInvalidaException {
         ticketMachine.inserir(30);  
         ticketMachine.imprimir();
     }
