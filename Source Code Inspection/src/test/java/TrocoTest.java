@@ -21,7 +21,7 @@ public class TrocoTest {
         assertEquals(0, troco.papeisMoeda[3].getQuantidade());  
         assertEquals(0, troco.papeisMoeda[2].getQuantidade());  
         assertEquals(0, troco.papeisMoeda[1].getQuantidade());  
-        assertEquals(3, troco.papeisMoeda[0].getQuantidade());  // 3 x 2
+        assertEquals(3, troco.papeisMoeda[0].getQuantidade());  
     }
 
 }
