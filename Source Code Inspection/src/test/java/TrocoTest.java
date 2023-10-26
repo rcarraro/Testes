@@ -11,7 +11,6 @@ import static org.junit.Assert.assertThrows;
 public class TrocoTest {
 
     private Troco troco;
-    protected PapelMoeda[] papeisMoeda;
   
     @Before
     public void setUp() {
