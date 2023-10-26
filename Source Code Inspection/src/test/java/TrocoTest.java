@@ -17,16 +17,13 @@ public class TrocoTest {
     public void setUp() {
         troco = new Troco(256);  
     }
-      class TrocoIteratorTeste implements Iterator<PapelMoeda> {
-        
-        @Test
-        public void testTroco() throws PapelMoedaInvalidaException {
-          assertEquals(2, troco.papeisMoeda[5].getQuantidade());
-          assertEquals(1, troco.papeisMoeda[4].getQuantidade());
-          assertEquals(0, troco.papeisMoeda[3].getQuantidade());
-          assertEquals(0, troco.papeisMoeda[2].getQuantidade());
-          assertEquals(1, troco.papeisMoeda[1].getQuantidade());
-          assertEquals(1, troco.papeisMoeda[0].getQuantidade());
-        }
+    @Test
+    public void testTroco() throws PapelMoedaInvalidaException {
+        assertEquals(2, troco.papeisMoeda[5].getQuantidade());
+        assertEquals(1, troco.papeisMoeda[4].getQuantidade());
+        assertEquals(0, troco.papeisMoeda[3].getQuantidade());
+        assertEquals(0, troco.papeisMoeda[2].getQuantidade());
+        assertEquals(1, troco.papeisMoeda[1].getQuantidade());
+        assertEquals(1, troco.papeisMoeda[0].getQuantidade());
     }
 }
