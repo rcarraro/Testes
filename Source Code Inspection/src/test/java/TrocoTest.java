@@ -19,8 +19,8 @@ public class TrocoTest {
 
     @Test
     public void testTrocoCalculation() {
-        troco = new Troco(256);
         assertEquals(2, troco.papeisMoeda[5].getQuantidade());  
+        assertEquals(1, troco.papeisMoeda[4].getQuantidade());
     }
 
 }
